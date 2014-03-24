@@ -15,7 +15,7 @@ Response: `[ ]`
 Adds the request body to the stored data.  
 
 Method: POST  
-Example: http://example.com/post
+Example: http://example.com/post  
 Request Body: name=Kirby&city=Stowe  
 Response:
 ```
@@ -32,7 +32,7 @@ Updates the stored data. *:id* is the index to element to update in the data arr
 
 Method: PUT  
 Example: http://example.com/put/0  
-Request Body: name=Kirby&city=Stowe&state=Vermont
+Request Body: name=Kirby&city=Stowe&state=Vermont  
 Response:
 ```
   [
@@ -55,6 +55,6 @@ Response: `[ ]`
 Clears the stored data.  
 
 Method: POST  
-Example: http://example.com/resetdata  
+Example: http://example.com/resetdata
 Request Body: \**ignored\**  
 Response: `[ ]`  
