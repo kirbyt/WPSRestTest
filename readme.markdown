@@ -35,4 +35,4 @@ Clears the stored data.
 
 Method: POST  
 Example: http://example.com/resetdata  
-Request Body: \**ignored\**
+Request Body: \**ignored\**  
